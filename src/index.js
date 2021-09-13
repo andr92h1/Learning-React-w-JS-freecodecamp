@@ -35,4 +35,4 @@ function FunctionalComponents() {
 }
 
 const element = <h1>Name</h1>;
-ReactDOM.render([<Name/>, <Gone/>, <Background/>, <NameButton/>, <MyApp/>, <FunctionalComponents/>, ], document.getElementById('root'));
+ReactDOM.render([<Name/>, <Gone/>, <NameButton/>, <MyApp/>, <FunctionalComponents/>, <Background/>,], document.getElementById('root'));
