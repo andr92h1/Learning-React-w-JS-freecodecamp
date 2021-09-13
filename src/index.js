@@ -14,12 +14,19 @@ import "./index.css";
 
 function MyApp() {
 
+  const firstName = "Andreea"
+  const middleName = "Teodora" 
+
 return (
+
+  <div>
+    <h1> Hello {firstName + " " + middleName}! </h1>
 <ul>
   <li>1</li>
   <li>2</li>
   <li>3</li>
 </ul>
+</div>
 )
 
 };
@@ -41,4 +48,4 @@ function FunctionalComponents() {
 
 const element = <h1>Name</h1>;
 ReactDOM.render([<Name/>, <Gone/>, <NameButton/>, <MyApp/>, <FunctionalComponents/>, <Background/>,], document.getElementById('root'));
-ReactDOM.render([<App />, <NewFunction/>, ], document.getElementById("root"))
+ReactDOM.render([<App />, <NewFunction/>, <MyApp />, ], document.getElementById("root"))
