@@ -20,7 +20,7 @@ function MyApp() {
 return (
 
   <div>
-    <h1> Hello {firstName + " " + middleName}! </h1>
+    <h1> Hello {`${firstName} ${middleName}`}! </h1>
 <ul>
   <li>1</li>
   <li>2</li>
