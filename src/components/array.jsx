@@ -1,7 +1,17 @@
 import React from 'react';
 
 
-const MyName = ['Andreea'];
+function MyName() {
+
+
+    return (
+
+        <div>
+        <p>Andreea</p>
+        </div>
+    )
+}
+
 
 class Name extends React.Component {
     

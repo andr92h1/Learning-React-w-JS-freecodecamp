@@ -7,6 +7,7 @@ import NameButton from "./components/nameButton";
 import Name from "./components/array";
 import reactDom from "react-dom";
 import App from "./components/App";
+import NewFunction from "./components/NewFunction"
 
 import "./index.css";
 
@@ -40,4 +41,4 @@ function FunctionalComponents() {
 
 const element = <h1>Name</h1>;
 ReactDOM.render([<Name/>, <Gone/>, <NameButton/>, <MyApp/>, <FunctionalComponents/>, <Background/>,], document.getElementById('root'));
-ReactDOM.render(<App/>, document.getElementById("root"))
+ReactDOM.render([<App />, <NewFunction/>, ], document.getElementById("root"))
