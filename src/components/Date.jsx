@@ -16,8 +16,14 @@ function ChangeDate () {
     }
 
 
+const styles = {
+    color: "#000000", 
+    backgroundColor: "#FF2D00",
+    fontSize: 24,
+}
+
     return (
-<h1>Good {timeOfDay}!</h1>
+    <h1 style={styles}> Good {timeOfDay}!</h1>
 
     )
 
