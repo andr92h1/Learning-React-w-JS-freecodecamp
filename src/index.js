@@ -8,6 +8,8 @@ import Name from "./components/array";
 import reactDom from "react-dom";
 import App from "./components/App";
 
+import "./index.css";
+
 
 function MyApp() {
 

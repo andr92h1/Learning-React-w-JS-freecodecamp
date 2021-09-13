@@ -3,19 +3,12 @@ import React from "react"
 function Header() {
 return (
 
-<div>
-    <nav>
-       <h1>Love you to the moon and back!</h1>
-    <ul>
-        <li>Yoga</li>
-        <li>Programming</li>
-        <li>Tattoos</li>
-    </ul>
-    </nav>
-</div>
+<header className="navbar">This is the header</header>
+
 
 )
 
 }
 
-export default Header;
+export default Header
+
