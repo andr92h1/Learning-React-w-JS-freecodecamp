@@ -6,6 +6,10 @@ function ChangeDate () {
     const hours = date.getHours()
     let timeOfDay 
 
+    const styles = {
+        fontSize: 24,
+    }
+
     if (hours < 12) {
 
     timeOfDay = 'morning'
@@ -13,14 +17,9 @@ function ChangeDate () {
     timeOfDay = 'afternoon'
     } else {
     timeOfDay = 'night'
+    styles.color = "#000000"
     }
 
-
-const styles = {
-    color: "#000000", 
-    backgroundColor: "#FF2D00",
-    fontSize: 24,
-}
 
     return (
     <h1 style={styles}> Good {timeOfDay}!</h1>
